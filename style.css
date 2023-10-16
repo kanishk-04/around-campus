@@ -1,0 +1,151 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    background-color: rgba(107, 148, 166, 0.779); 
+    z-index: 10;
+}
+
+.nav-links{
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+.nav-links a{
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(141, 156, 168);
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+
+.nav-links a:hover{
+    background-color:#088;
+    color: white;
+}
+
+
+.head-container{
+    height: 90vh;
+    background-image: url(images/building.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.head-container h1{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(106, 137, 167, 0.787);
+    border-radius: 50px;
+}
+
+.container-2{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(141, 156, 168);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-2 div{
+    height: 50%;
+    width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 div a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    background-color: rgba(141, 156, 168, 0.31);
+    border-radius: 20px;
+}
+
+.container-2 a:hover{
+    background-color:#088;
+    color: white;
+}
+
+
+
+#food {
+    background-image: url(images/food.jpg);
+}
+
+#electronics {
+    background-image: url(images/electronics.jpg);
+}
+
+#stationary {
+    background-image: url(images/stationary.jpg);
+}
+
+/********* Main pages ***********************************/
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(images/vintage-old-brown-paper-texture-background-kraft-paper-horizontal-with-unique-design-paper-soft-natural-paper-style-aesthetic-creative-design_364465-125.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.section{
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(20, 91, 110);
+    width: 50%;
+    height: 80vh;
+    border-radius: 25px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.section img{
+    height: 50%;
+    border-radius: 20px;
+}
+
+.section p{
+    text-align: center;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
